@@ -4,10 +4,10 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.2"
+		"php": ">=7.4"
 	},
 	"require-dev": {
-		"automattic/phpunit-select-config": "^1.0.9",
+		"automattic/phpunit-select-config": "^1.0.10-alpha",
 		"yoast/phpunit-polyfills": "^4.0.0"
 	},
 	"autoload": {
@@ -35,7 +35,7 @@
 	"extra": {
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.3.x-dev"
+			"dev-trunk": "0.4.x-dev"
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/block-delimiter/compare/v${old}...v${new}"
